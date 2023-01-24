@@ -4,10 +4,23 @@ div {
   padding: 5px;
 }
 
+li{
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .prime{
   color:red;
 }
 
 .fizz-buzz{
   color: green;
+}
+
+.buzz{
+  color: blue;
+}
+
+.fizz{
+  color:purple;
 }

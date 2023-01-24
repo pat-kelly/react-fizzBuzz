@@ -1,7 +1,11 @@
-const Fizz = ()=>{
+import Prime from "./Prime"
+
+const Fizz = (props)=>{
   return(
     <>
-      Hello
+      {(props.num%3 === 0) 
+        ? <li className="fizz">{props.num} - Fizz</li> 
+        : <li><Prime num={props.num} /></li>}
     </>
   )
 }

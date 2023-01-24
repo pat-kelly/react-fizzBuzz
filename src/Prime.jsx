@@ -11,7 +11,7 @@ function isPrime(int){
 const Prime = (props)=>{
   return(
     <>
-      {isPrime(props.num) ? <li className="prime">Prime</li> : <></>} 
+      {isPrime(props.num) ? <span className="prime">{props.num} - Prime</span> : props.num} 
     </>
   )
 }

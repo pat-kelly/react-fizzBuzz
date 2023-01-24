@@ -1,7 +1,11 @@
-const Buzz = ()=>{
+import Fizz from "./Fizz"
+
+const Buzz = (props)=>{
   return(
     <>
-      Hello
+      {(props.num % 5 === 0) 
+        ? <li className="buzz">{props.num} - Buzz</li> 
+        : <Fizz num={props.num} />}
     </>
   )
 }
