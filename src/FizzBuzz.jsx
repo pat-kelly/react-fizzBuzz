@@ -1,5 +1,4 @@
 import Buzz from "./Buzz"
-import Prime from "./Prime"
 
 const FizzBuzz = (props)=>{
   return(
